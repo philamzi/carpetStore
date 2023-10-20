@@ -5,24 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --primary: rgba(176, 252, 243, 0.825);
-    --secondary: rgba(255, 255, 255, 0.977);
-    --awesome: rgb(244, 184, 224);
-}
-/* Container */
-.container {
-    /* Local custom variable */
-    /* top and bottom */
-    margin-block: 20px;
-    --numbOfRed: 123;
-    --numbOfOrange: 100;
-    --numbOfYellow: 18;
-    border-width: 5px 8px;
-    border-image: radial-gradient(120deg, var(--numbOfRed), var(--numbOfOrange))
-}
-/* Display flex */
-.container :is(#example1, #example2), 
-.button-wrapper {
-    display: flex;
+li {
+    display: inline;
+    padding-inline-start: 0%;
+    padding-inline-end: 10%;
+    background-color: grey;
+    font-style: italic;
+    font-size: x-large;
+} 
+
+body {
+    background-image: url("")
 }
